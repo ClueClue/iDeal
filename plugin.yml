@@ -1,0 +1,32 @@
+name: iDeal
+main: inflater\iDeal\iDeal
+version: "1.1.0-release"
+author: InflateR(egmzkdhtm@naver.com)
+api:
+- 1.12.0
+- 1.13.0
+- 2.0.0
+
+permissions:
+  ideal.commands.ideal:
+    default: OP
+  ideal.commands.deal:
+    default: true
+  ideal.commands.cloud:
+    default: true
+  ideal.commands.vmachine:
+    default: true
+  ideal.commands.shop:
+    default: OP
+  ideal.commands.auction:
+    default: true
+  ideal.commands.craft:
+    default: true
+  ideal.commands.buy:
+    default: true
+  ideal.commands.sell:
+    default: true
+  ideal.commands.iv:
+    default: OP
+  ideal.commands.inv:
+    default: OP

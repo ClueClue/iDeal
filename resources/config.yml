@@ -1,0 +1,43 @@
+---
+#iDeal 플러그인의 최신버전이 존재하는지 체크합니다.
+update-check: true
+
+# false로 설정할경우 해당 기능을 비활성화 시킵니다.
+safedeal: true
+itemcloud: true
+vmachine: true
+shop: true
+auction: true
+craft: true
+
+# 입력한 아이템을 해당 기능에서 차단합니다. 다수시 ',' 로 구분
+safedeal_ban-item: ""
+itemcloud_ban-item: ""
+vmachine_ban-item: ""
+auction_ban-item: ""
+
+# 클라우드 기본 사이즈를 설정합니다. ( 한번에 가능한 업로드 개수가 아닌, 항목 개수입니다. )
+itemcloud_default-size: 5
+
+# 클라우드 한번 확장시 늘릴 크기와 가격을 설정합니다.
+itemcloud_expansion-size: 5
+itemcloud_expansion-price: 100000
+
+# 판매기 생성방법을 설정합니다. ( 0 = 표지판설치, 1 = 자동설치 , 2 = 유리클릭설치 )
+vmachine_create-type: 0
+
+# 판매기 확장 비용을 설정합니다.
+vmachine_install-price: 500000
+
+# 경매 수수료를 설정합니다.
+auction-commission: 1/10
+
+# 경매 남은시간을 카운트다운할지 설정합니다.
+auction-countdown: false
+
+# 아이템을 떨어뜨리는것을 허용할지 설정합니다.
+item-drop: true
+
+# 데이터 저장방식을 설정합니다.
+saveFormat: 'json'
+...
